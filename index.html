@@ -5,13 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        body{font-family: "Roboto", sans-serif;}
+    </style>
 </head>
 <body class="m-0">
    <nav class="flex justify-between px-8 py-5">
       <img src="./images/logo.svg" alt="Logo" class="w-auto"/>
-      <div class="flex space-x-5 text-sm items-center font-semibold">
-          <!-- <div>download App</div> -->
-        <a href="" class="border border-black rounded-full pt-1 px-3 pb-2">download App</a>
+      <div class="flex space-x-8 text-sm items-center font-medium">
+        <a href="" class="border border-black rounded-full px-3 py-2">download App</a>
         <a href="">Trip planner</a>
         <a href="">Register accommodation</a>
         <a href="">Help</a>
@@ -21,7 +26,7 @@
    </nav>
    <section class="bg-black min-h-[89vh] w-full px-10 flex flex-col justify-center">
         <h1 class="text-white text-[50px] font-semibold">Find your place for each other</h1>
-        <div class="rounded-2xl bg-gray-100 w-full p-3 mt-5 flex justify-between items-center space-x-3 text-sm">
+        <div class="font-light rounded-2xl bg-gray-100 w-full p-3 mt-5 flex justify-between items-center space-x-3 text-sm">
             <div class="rounded-lg border border-black py-2.5 px-2.5 w-[32%] flex items-center">
                 <img src="./images/location.svg" class="w-6 h-6"/>
                 <span class="ml-1.5">holiday destination</span>
@@ -33,12 +38,34 @@
             <div class="rounded-lg border border-black py-1 px-2.5 w-[32%] flex items-center">
                 <img src="./images/date.svg" class="w-6 h-6"/>
                 <div class="ml-1.5">
-                    <div class="font-thin text-xs">Guests</div>
+                    <div class="text-[11px]">Guests</div>
                     <div>2 travelers</div>
                 </div>
             </div>
-            <div class="rounded-full font-bold pt-2.5 pb-3 px-4 bg-gray-800 text-white text-base cursor-pointer">Seek</div>
+            <div class="rounded-full font-bold py-3 px-4 bg-gray-800 text-white text-base cursor-pointer">Seek</div>
         </div>
+   </section>
+   <section class="px-10 py-20 w-full">
+    <div class="font-bold text-[25px]">Suggestions for you</div>
+    <div class="font-bold text-[25px] mt-4">Popular travel destinations</div>
+    <div class="flex items-center space-x-4 mt-2 w-full">
+        <div class="rounded-2xl w-[22%] h-[10rem] border border-gray-300 flex flex-col justify-between">
+            <div class="bg-black rounded-tr-2xl rounded-tl-2xl flex-1"></div>
+            <div class="bg-white font-medium px-3 pt-3 pb-2.5 rounded-br-2xl rounded-bl-2xl border-0">Kigali</div>
+        </div>
+        <div class="rounded-2xl w-[22%] h-[10rem] border border-gray-300 flex flex-col justify-between">
+            <div class="bg-black rounded-tr-2xl rounded-tl-2xl flex-1"></div>
+            <div class="bg-white font-medium px-3 pt-3 pb-2.5 rounded-br-2xl rounded-bl-2xl border-0">Dubai</div>
+        </div>
+        <div class="rounded-2xl w-[22%] h-[10rem] border border-gray-300 flex flex-col justify-between">
+            <div class="bg-black rounded-tr-2xl rounded-tl-2xl flex-1"></div>
+            <div class="bg-white font-medium px-3 pt-3 pb-2.5 rounded-br-2xl rounded-bl-2xl border-0">Oxon Hill</div>
+        </div>
+        <div class="rounded-2xl w-[22%] h-[10rem] border border-gray-300 flex flex-col justify-between">
+            <div class="bg-black rounded-tr-2xl rounded-tl-2xl flex-1"></div>
+            <div class="bg-white font-medium px-3 pt-3 pb-2.5 rounded-br-2xl rounded-bl-2xl border-0">Nairobi</div>
+        </div>
+    </div>
    </section>
 </body>
 </html>
