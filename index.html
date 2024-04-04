@@ -21,64 +21,78 @@
     </style>
   </head>
   <body class="m-0">
-    <nav class="flex justify-between px-8 py-5">
-      <img src="./images/logo.svg" alt="Logo" class="w-auto" />
-      <div class="flex space-x-8 text-sm items-center font-medium">
-        <a href="" class="border border-black rounded-full px-3 py-2"
+    <nav class="flex justify-between md:flex-row flex-col px-8 py-5">
+      <img src="./images/logo.svg" alt="Logo" class="md:w-auto w-32" />
+      <div
+        class="flex md:space-x-8 text-sm items-center font-medium md:flex-nowrap flex-wrap md:mt-0 mt-6 md:w-auto w-full"
+      >
+        <a
+          href=""
+          class="border border-black rounded-full px-3 py-2 md:mr-0 mr-5 md:mb-0 mb-3"
           >download App</a
         >
-        <a href="">Trip planner</a>
-        <a href="">Register accommodation</a>
-        <a href="">Help</a>
-        <a href="">My journeys</a>
-        <a href="">Register</a>
+        <a href="" class="md:mr-0 mr-5 md:mb-0 mb-3">Trip planner</a>
+        <a href="" class="md:mr-0 mr-5 md:mb-0 mb-3">Register accommodation</a>
+        <a href="" class="md:mr-0 mr-5 md:mb-0 mb-3">Help</a>
+        <a href="" class="md:mr-0 mr-5 md:mb-0 mb-3">My journeys</a>
+        <a href="" class="md:mr-0 mr-5 md:mb-0 mb-3">Register</a>
       </div>
     </nav>
     <section
-      class="bg-black min-h-[89vh] w-full px-14 flex flex-col justify-center"
+      class="bg-black min-h-[89vh] w-full md:px-14 px-10 flex flex-col justify-center bg-cover bg-center bg-no-repeat"
+      style="
+        background-image: url(https://images.unsplash.com/photo-1511895426328-dc8714191300?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+      "
     >
-      <h1 class="text-white text-[50px] font-semibold">
+      <h1 class="text-white text-[50px] text-[40px] font-semibold">
         Find your place for each other
       </h1>
       <div
-        class="font-light rounded-2xl bg-gray-100 w-full p-3 mt-5 flex justify-between items-center space-x-3 text-sm"
+        class="font-light rounded-2xl bg-gray-100 w-full p-3 mt-5 flex md:flex-row flex-col md:justify-between md:items-center md:space-x-3 md:space-y-0 space-y-3 text-sm"
       >
         <div
-          class="rounded-lg border border-black py-2.5 px-2.5 w-[32%] flex items-center"
+          class="rounded-lg border border-black py-2.5 px-2.5 md:w-[32%] w-full flex items-center"
         >
           <img src="./images/location.svg" class="w-6 h-6" />
           <span class="ml-1.5">holiday destination</span>
         </div>
         <div
-          class="rounded-lg border border-black py-2.5 px-2.5 w-[32%] flex items-center"
+          class="rounded-lg border border-black py-2.5 px-2.5 md:w-[32%] w-full flex items-center"
         >
           <img src="./images/date.svg" class="w-6 h-6" />
           <span class="ml-1.5">Date</span>
         </div>
         <div
-          class="rounded-lg border border-black py-1 px-2.5 w-[32%] flex items-center"
+          class="rounded-lg border border-black py-1 px-2.5 md:w-[32%] w-full flex items-center"
         >
-          <img src="./images/date.svg" class="w-6 h-6" />
+          <img src="./images/person.svg" class="w-6 h-6" />
           <div class="ml-1.5">
             <div class="text-[11px]">Guests</div>
             <div>2 travelers</div>
           </div>
         </div>
         <div
-          class="rounded-full font-bold py-3 px-4 bg-gray-800 text-white text-base cursor-pointer"
+          class="rounded-full font-bold py-3 px-4 bg-gray-800 text-white text-base cursor-pointer w-fit"
         >
           Seek
         </div>
       </div>
     </section>
-    <section class="px-14 pt-20 w-full">
+    <section class="md:px-14 px-10 pt-20 w-full">
       <div class="font-bold text-[25px]">Suggestions for you</div>
       <div class="font-bold text-[25px] mt-4">Popular travel destinations</div>
-      <div class="flex items-center space-x-4 mt-3 w-full">
+      <div
+        class="flex items-center md:space-x-4 md:space-y-0 space-y-4 mt-3 w-full md:flex-nowrap flex-wrap"
+      >
         <div
-          class="rounded-2xl w-[22%] h-[10rem] border border-gray-300 flex flex-col justify-between"
+          class="rounded-2xl md:w-[22%] w-[100%] h-[10rem] border border-gray-300 flex flex-col justify-between"
         >
-          <div class="bg-black rounded-tr-2xl rounded-tl-2xl flex-1"></div>
+          <div
+            class="bg-black rounded-tr-2xl rounded-tl-2xl flex-1 bg-center bg-cover bg-no-repeat"
+            style="
+              background-image: url(https://wideangledreams.com/wp-content/uploads/2021/11/MG_8162.jpg);
+            "
+          ></div>
           <div
             class="bg-white font-medium px-3 pt-3 pb-2.5 rounded-br-2xl rounded-bl-2xl border-0"
           >
@@ -86,9 +100,17 @@
           </div>
         </div>
         <div
-          class="rounded-2xl w-[22%] h-[10rem] border border-gray-300 flex flex-col justify-between"
+          class="rounded-2xl md:w-[22%] w-[100%] h-[10rem] border border-gray-300 flex flex-col justify-between"
+          style="
+            background-image: url(https://wideangledreams.com/wp-content/uploads/2021/11/MG_8162.jpg);
+          "
         >
-          <div class="bg-black rounded-tr-2xl rounded-tl-2xl flex-1"></div>
+          <div
+            class="bg-black rounded-tr-2xl rounded-tl-2xl flex-1 bg-center bg-cover bg-no-repeat"
+            style="
+              background-image: url(https://static.independent.co.uk/2021/12/13/15/iStock-531134787.jpg);
+            "
+          ></div>
           <div
             class="bg-white font-medium px-3 pt-3 pb-2.5 rounded-br-2xl rounded-bl-2xl border-0"
           >
@@ -96,9 +118,14 @@
           </div>
         </div>
         <div
-          class="rounded-2xl w-[22%] h-[10rem] border border-gray-300 flex flex-col justify-between"
+          class="rounded-2xl md:w-[22%] w-[100%] h-[10rem] border border-gray-300 flex flex-col justify-between"
         >
-          <div class="bg-black rounded-tr-2xl rounded-tl-2xl flex-1"></div>
+          <div
+            class="bg-black rounded-tr-2xl rounded-tl-2xl flex-1 bg-center bg-cover bg-no-repeat"
+            style="
+              background-image: url(https://images.unsplash.com/photo-1502134721495-62c664ad7337?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8T3hvbiUyMEhpbGx8ZW58MHwwfDB8fHww);
+            "
+          ></div>
           <div
             class="bg-white font-medium px-3 pt-3 pb-2.5 rounded-br-2xl rounded-bl-2xl border-0"
           >
@@ -106,9 +133,14 @@
           </div>
         </div>
         <div
-          class="rounded-2xl w-[22%] h-[10rem] border border-gray-300 flex flex-col justify-between"
+          class="rounded-2xl md:w-[22%] w-[100%] h-[10rem] border border-gray-300 flex flex-col justify-between"
         >
-          <div class="bg-black rounded-tr-2xl rounded-tl-2xl flex-1"></div>
+          <div
+            class="bg-black rounded-tr-2xl rounded-tl-2xl flex-1 bg-center bg-cover bg-no-repeat"
+            style="
+              background-image: url(https://images.unsplash.com/photo-1611348524140-53c9a25263d6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TmFpcm9iaXxlbnwwfDB8MHx8fDA%3D);
+            "
+          ></div>
           <div
             class="bg-white font-medium px-3 pt-3 pb-2.5 rounded-br-2xl rounded-bl-2xl border-0"
           >
@@ -117,13 +149,18 @@
         </div>
       </div>
     </section>
-    <section class="pt-12 px-14">
-      <h1 class="text-[32px] font-semibold">
+    <section class="pt-12 md:px-14 px-10">
+      <h1 class="md:text-[32px] text-[28px] font-semibold">
         Find accommodation that suits your taste
       </h1>
-      <div class="flex space-x-4 mt-3 w-full">
+      <div
+        class="flex md:space-x-4 md:space-y-0 space-y-4 mt-3 w-full md:flex-nowrap flex-wrap"
+      >
         <div
-          class="rounded-2xl w-[23%] h-[14rem] bg-black flex flex-col justify-end"
+          class="rounded-2xl md:w-[23%] w-full h-[14rem] bg-black flex flex-col justify-end bg-center bg-cover bg-no-repeat"
+          style="
+            background-image: url(https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aG91c2VzfGVufDB8MHwwfHx8MA%3D%3D);
+          "
         >
           <div
             class="text-white text-lg py-3 px-5 font-semibold tracking-wider"
@@ -132,7 +169,10 @@
           </div>
         </div>
         <div
-          class="rounded-2xl w-[23%] h-[14rem] bg-black flex flex-col justify-end"
+          class="rounded-2xl md:w-[23%] w-full h-[14rem] bg-black flex flex-col justify-end bg-center bg-cover bg-no-repeat"
+          style="
+            background-image: url(https://images.unsplash.com/photo-1585641428364-97b2284664d2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGFwYXJ0bWVudHN8ZW58MHwwfDB8fHww);
+          "
         >
           <div
             class="text-white text-lg py-3 px-5 font-semibold tracking-wider"
@@ -141,7 +181,10 @@
           </div>
         </div>
         <div
-          class="rounded-2xl w-[23%] h-[14rem] bg-black flex flex-col justify-end"
+          class="rounded-2xl md:w-[23%] w-full h-[14rem] bg-black flex flex-col justify-end bg-center bg-cover bg-no-repeat"
+          style="
+            background-image: url(https://images.unsplash.com/photo-1508333409359-027beab53750?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8SG9saWRheSUyMGNhYmluc3xlbnwwfDB8MHx8fDA%3D);
+          "
         >
           <div
             class="text-white text-lg py-3 px-5 font-semibold tracking-wider"
@@ -150,7 +193,10 @@
           </div>
         </div>
         <div
-          class="rounded-2xl w-[23%] h-[14rem] bg-black flex flex-col justify-end"
+          class="rounded-2xl md:w-[23%] w-full h-[14rem] bg-black flex flex-col justify-end bg-center bg-cover bg-no-repeat"
+          style="
+            background-image: url(https://images.unsplash.com/photo-1683795696947-d40229762af9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8U21hbGwlMjBjb3VudHJ5fGVufDB8MHwwfHx8MA%3D%3D);
+          "
         >
           <div
             class="text-white text-lg py-3 px-5 font-semibold tracking-wider"
@@ -160,10 +206,13 @@
         </div>
       </div>
       <div
-        class="mt-14 rounded-2xl bg-black w-full h-[75vh] flex flex-col justify-center text-white px-14 w-full"
+        class="mt-14 rounded-2xl bg-black w-full h-[75vh] flex flex-col justify-center text-white md:px-14 px-10 w-full bg-center bg-cover bg-no-repeat"
+        style="
+          background-image: url(https://digital.ihg.com/is/image/ihg/ihg-lp-refresh-hero-imea-gben-lvp-1440x617);
+        "
       >
-        <div class="w-[30%]">
-          <div class="text-[35px] font-semibold leading-tight">
+        <div class="md:w-[30%] w-full">
+          <div class="md:text-[35px] text-[28px] font-semibold leading-tight">
             Holiday homes of the year 2024
           </div>
           <p class="text-[15px] mt-3 font-light">
@@ -171,20 +220,27 @@
             families and groups.
           </p>
           <div
-            class="w-fit px-4 py-3 font-semibold bg-gray-800 rounded-full mt-4"
+            class="w-fit px-4 py-3 font-semibold bg-gray-800 rounded-full mt-4 md:text-base text-sm"
           >
             Discover holiday homes
           </div>
         </div>
       </div>
     </section>
-    <section class="pt-12 px-14">
-      <h1 class="text-[32px] font-semibold">
+    <section class="pt-12 md:px-14 px-10">
+      <h1 class="md:text-[32px] text-[28px] font-semibold">
         Get inspired for your family trip
       </h1>
-      <div class="flex space-x-6 mt-3 w-full">
-        <div class="w-[50%] flex flex-col">
-          <div class="w-full bg-black h-[50vh] rounded-2xl"></div>
+      <div
+        class="flex md:space-x-6 md:space-y-0 space-y-6 mt-3 w-full md:flex-nowrap flex-wrap"
+      >
+        <div class="md:w-[50%] w-full flex flex-col">
+          <div
+            class="w-full bg-black h-[50vh] rounded-2xl bg-center bg-cover bg-no-repeat"
+            style="
+              background-image: url(https://images.unsplash.com/photo-1562960032-108a6c6c4896?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGVvcGxlJTIwb24lMjBiZWFjaHxlbnwwfDB8MHx8fDA%3D);
+            "
+          ></div>
           <div class="pt-3">
             <div class="uppercase text-[12px] font-light">
               Family trips 2024
@@ -192,8 +248,13 @@
             <div class="font-medium mt-0.5">Near the beach</div>
           </div>
         </div>
-        <div class="w-[50%] flex flex-col">
-          <div class="w-full bg-black h-[50vh] rounded-2xl"></div>
+        <div class="md:w-[50%] w-full flex flex-col">
+          <div
+            class="w-full bg-black h-[50vh] rounded-2xl bg-center bg-cover bg-no-repeat"
+            style="
+              background-image: url(https://images.unsplash.com/photo-1544568100-847a948585b9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGRvZ3xlbnwwfDB8MHx8fDA%3D);
+            "
+          ></div>
           <div class="pt-3">
             <div class="uppercase text-[12px] font-light">
               for the whole family
@@ -202,9 +263,16 @@
           </div>
         </div>
       </div>
-      <div class="flex space-x-6 mt-8 w-full">
-        <div class="w-1/3 flex flex-col">
-          <div class="w-full bg-black h-[35vh] rounded-2xl"></div>
+      <div
+        class="flex md:space-x-6 md:space-y-0 space-y-6 mt-8 w-full md:flex-nowrap flex-wrap"
+      >
+        <div class="md:w-1/3 w-full flex flex-col">
+          <div
+            class="w-full bg-black h-[35vh] rounded-2xl bg-center bg-cover bg-no-repeat"
+            style="
+              background-image: url(https://images.unsplash.com/photo-1534612899740-55c821a90129?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cG9vbHN8ZW58MHwwfDB8fHww);
+            "
+          ></div>
           <div class="pt-3">
             <div class="uppercase text-[12px] font-light">
               Popular amenities
@@ -212,8 +280,13 @@
             <div class="font-medium mt-0.5">Pools</div>
           </div>
         </div>
-        <div class="w-1/3 flex flex-col">
-          <div class="w-full bg-black h-[35vh] rounded-2xl"></div>
+        <div class="md:w-1/3 w-full flex flex-col">
+          <div
+            class="w-full bg-black h-[35vh] rounded-2xl bg-center bg-cover bg-no-repeat"
+            style="
+              background-image: url(https://images.unsplash.com/photo-1549394325-53f5ea5f4f51?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHBvb2xzfGVufDB8MHwwfHx8MA%3D%3D);
+            "
+          ></div>
           <div class="pt-3">
             <div class="uppercase text-[12px] font-light">
               Your home away away
@@ -221,8 +294,13 @@
             <div class="font-medium mt-0.5">Holiday homes</div>
           </div>
         </div>
-        <div class="w-1/3 flex flex-col">
-          <div class="w-full bg-black h-[35vh] rounded-2xl"></div>
+        <div class="md:w-1/3 w-full flex flex-col">
+          <div
+            class="w-full bg-black h-[35vh] rounded-2xl bg-center bg-cover bg-no-repeat"
+            style="
+              background-image: url(https://images.unsplash.com/photo-1623298460174-371443cc45f0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fHBvb2xzfGVufDB8MHwwfHx8MA%3D%3D);
+            "
+          ></div>
           <div class="pt-3">
             <div class="uppercase text-[12px] font-light">
               For large families
@@ -234,8 +312,10 @@
         </div>
       </div>
     </section>
-    <section class="mt-36 flex space-x-10 px-14">
-      <div class="w-1/4">
+    <section
+      class="mt-36 flex md:space-x-10 md:space-y-0 space-y-6 md:px-14 px-10 md:flex-nowrap flex-wrap"
+    >
+      <div class="md:w-1/4 w-full">
         <img src="./images/carefree.svg" alt="Icon" class="w-10 h-10" />
         <div class="font-semibold text-base mt-2">Just carefree</div>
         <p class="text-sm font-light mt-1">
@@ -243,7 +323,7 @@
           the clock
         </p>
       </div>
-      <div class="w-1/4">
+      <div class="md:w-1/4 w-full">
         <img src="./images/moments.svg" alt="Icon" class="w-10 h-10" />
         <div class="font-semibold text-base mt-2">More moments together</div>
         <p class="text-sm font-light mt-1">
@@ -251,7 +331,7 @@
           straightforward
         </p>
       </div>
-      <div class="w-1/4">
+      <div class="md:w-1/4 w-full">
         <img src="./images/home.svg" alt="Icon" class="w-10 h-10" />
         <div class="font-semibold text-base mt-2">
           The same privacy as at home
@@ -261,7 +341,7 @@
           pool, garden and more
         </p>
       </div>
-      <div class="w-1/4">
+      <div class="md:w-1/4 w-full">
         <img src="./images/money.svg" alt="Icon" class="w-10 h-10" />
         <div class="font-semibold text-base mt-2">
           More vacation for less money
@@ -271,24 +351,27 @@
         </p>
       </div>
     </section>
-    <section class="px-14">
+    <section class="md:px-14 px-10">
       <div
-        class="mt-14 rounded-2xl bg-black w-full h-[75vh] flex flex-col justify-center text-white px-14 w-full"
+        class="mt-14 rounded-2xl bg-black w-full h-[75vh] flex flex-col justify-center text-white md:px-14 px-10 w-full bg-center bg-cover bg-no-repeat"
+        style="
+          background-image: url(https://digital.ihg.com/is/image/ihg/ihg-lp-refresh-hero-imea-gben-lvp-1440x617);
+        "
       >
-        <div class="w-[30%]">
-          <div class="text-[35px] font-semibold leading-tight">
+        <div class="md:w-[30%] w-full">
+          <div class="md:text-[35px] text-[28px] font-semibold leading-tight">
             Advertise accommodation now on FeWo-direkt.de and increase your
             rental income
           </div>
           <div
-            class="w-fit px-4 py-3 font-semibold bg-gray-800 rounded-full mt-4"
+            class="w-fit px-4 py-3 font-semibold bg-gray-800 rounded-full mt-4 md:text-base text-sm"
           >
             Advertise accommodation
           </div>
         </div>
       </div>
     </section>
-    <section class="px-14 mt-20">
+    <section class="md:px-14 px-10 mt-20">
       <div>
         <h1 class="text-2xl font-semibold">What is HomeAway?</h1>
         <p class="mt-6 font-light text-[15px]">
@@ -330,7 +413,7 @@
         </p>
       </div>
     </section>
-    <section class="px-14 pt-10 w-full">
+    <section class="md:px-14 px-10 pt-10 w-full">
       <div class="font-bold text-[32px]">popular travel destinations</div>
       <div class="font-semibold flex flex-col space-y-6 mt-5 pl-2 text-lg">
         <div>Top travel destinations</div>
@@ -342,7 +425,9 @@
     </section>
     <footer class="w-full px-8 pt-20">
       <img src="./images/logo.svg" class="w-32" />
-      <div class="flex justify-between mt-5 pb-8 w-[82%]">
+      <div
+        class="flex md:flex-row flex-col md:space-y-0 space-y-6 justify-between mt-5 pb-8 md:w-[82%] w-full"
+      >
         <div class="flex flex-col space-y-4 text-xs font-light">
           <div class="text-[14px] font-medium">Explore FeWo-direct</div>
           <a href="" class="footerLink hover:underline"
